@@ -7,8 +7,8 @@ scan.onclick = async()=>{
   const {sRGBHex} =  await eyeDropper.open()
 
   const result = document.getElementById('result')
-  result.style.width = "50px"
-  result.style.height = "50px"
+  result.style.width = "200px"
+  result.style.height = "200px"
   result.style.backgroundColor = sRGBHex
 
   result.innerHTML = sRGBHex ;
